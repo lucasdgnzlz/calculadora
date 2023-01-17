@@ -1,0 +1,65 @@
+body{
+	background-color: beige;
+}
+.contenedor-principal{
+	display: flex;
+	margin: auto;
+	margin-top: 10px;
+	height: 500px;
+	width: 400px;
+	background-color: pink;
+	border-radius: 10px;
+}
+.cuerpo-calculadora{
+	margin: auto;
+	display: grid;
+	grid-template-rows: 65px 65px 65px 65px 65px;
+	grid-template-columns: 65px 65px 65px 65px;
+	padding: 20px;
+	height: max-content;
+	width: max-content;
+	border: 2px solid darkgrey;
+	border-radius: 10px;
+	background-color: lightgrey;
+}
+.contenedor-visor-numeros{
+	display: flex;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	border-radius: 10px;
+	padding: 10px 4px;
+}
+.visor-numeros{
+	width: 252px;
+	height: 20px;
+	background-color: darkgrey;
+	color: black;
+	font-family: 'Fira Code', monospace;
+	text-align: start;
+}
+.contenedor-uno-botones{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 6;
+	grid-template-rows: 65px 65px 65px 65px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.contenedor-dos-botones{
+	display: grid;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 6;
+}
+.botones{
+	border: 4px solid lightgrey;
+	background-color: darkgrey;
+	font-family: 'Fira Code', monospace;
+}
+.botones:hover{
+	background-color: #484848;
+	color: white;
+	font-family: 'Fira Code', monospace;
+}
