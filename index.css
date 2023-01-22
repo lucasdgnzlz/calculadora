@@ -31,7 +31,7 @@ body{
 }
 .visor-numeros{
 	width: 252px;
-	height: 20px;
+	height: 35px;
 	background-color: darkgrey;
 	color: black;
 	font-family: 'Fira Code', monospace;
