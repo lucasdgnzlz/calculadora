@@ -4,10 +4,9 @@ body{
 .contenedor-principal{
 	display: flex;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 80px;
 	height: 500px;
 	width: 400px;
-	background-color: pink;
 	border-radius: 10px;
 }
 .cuerpo-calculadora{
