@@ -1,16 +1,19 @@
 body{
 	background-color: beige;
 }
-.contenedor-principal{
+.contenedor-icono-tema{
 	display: flex;
-	margin: auto;
-	margin-top: 80px;
-	height: 500px;
-	width: 400px;
-	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 50px;
+	font-size: 33px;
+	color: black;
+	cursor: pointer;
 }
 .cuerpo-calculadora{
 	margin: auto;
+	margin-top: 100px;
 	display: grid;
 	grid-template-rows: 65px 65px 65px 65px 65px;
 	grid-template-columns: 65px 65px 65px 65px;
@@ -61,4 +64,11 @@ body{
 	background-color: #484848;
 	color: white;
 	font-family: 'Fira Code', monospace;
+}
+
+.body-modo-noche{
+	background-color: #000000;
+}
+#resaltar-color-modo-noche{
+	color: white;
 }
